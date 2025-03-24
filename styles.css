@@ -1,0 +1,60 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fi.huffpost.com%2Fgen%2F3508448%2Fimages%2Fo-HAPPY-OFFICE-facebook.jpg&f=1&nofb=1&ipt=289641676279d475598b880a876eb4d75eccb51ccc42868c6c442d59bc3445aa&ipo=images);
+
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bolder;
+  color: rgb(16, 55, 211);
+}
+
+#description {
+  width: 100%;
+  text-align: center;
+  color: rgb(16, 55, 211);
+}
+
+form {
+  background-color: rgba(118, 138, 221, 0.95);
+  width: 40%;
+  min-width: 500px;
+  margin: 10px auto;
+  padding-bottom: 1px;
+  box-shadow: 2px 2px 10px black;
+  border-radius: 10px 10px 10px 10px;
+}
+
+fieldset {
+  max-width: 80%;
+  margin: 10px auto 10px auto;
+  position: relative;
+  top: 30px;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  font-size: 0.7rem;
+  background: hsl(228, 30%, 80%);
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+button {
+  display: block;
+  margin: 50px auto;
+  width: 50%;
+}

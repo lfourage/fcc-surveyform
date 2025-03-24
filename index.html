@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">Very Important Survey Form</h1>
+    <p id="description">Fill out this form or else...</p>
+
+    <form id="survey-form">
+      <fieldset id="identity">
+        <legend>Decline your identity</legend>
+        <label for="name" id="name-label">
+          Name
+          <input required id="name" type="text" placeholder="Enter your Name" />
+        </label>
+
+        <label for="email" id="email-label">
+          Email
+          <input
+            required
+            id="email"
+            type="email"
+            placeholder="Enter your Email"
+          />
+        </label>
+
+        <label for="number" id="number-label">
+          Age
+          <input
+            id="number"
+            type="number"
+            min="8"
+            max="99"
+            placeholder="Enter your Age"
+          />
+        </label>
+      </fieldset>
+
+      <fieldset id="personality">
+        <legend>Tell us about you</legend>
+        <label for="dropdown">
+          Would you rather :
+          <select id="dropdown" required>
+            <option disabled selected value>Choose one</option>
+            <option value="history">
+              Have everyone you know to access your internet history
+            </option>
+            <option value="tought">
+              Have everyone you meet to be able to read your toughts
+            </option>
+          </select></label
+        >
+
+        <section class="radio-group">
+          Would you like it if we spamed you with useless emails ?
+          <label
+            ><input
+              checked
+              name="spam"
+              class="inline"
+              type="radio"
+              value="yes"
+            />Yes, please do !
+          </label>
+          <label
+            ><input name="spam" class="inline" type="radio" value="No" />No, but
+            I accept that you do
+          </label>
+        </section>
+
+        <section class="checkbox-group">
+          How do you feel about this form so far ? (check all that apply)
+          <label>
+            <input
+              name="feel"
+              class="inline"
+              value="puzzled"
+              type="checkbox"
+            />puzzled
+            <input
+              name="feel"
+              class="inline"
+              value="amused"
+              type="checkbox"
+            />amused
+            <input
+              name="feel"
+              class="inline"
+              value="angry"
+              type="checkbox"
+            />angry
+          </label>
+        </section>
+
+        <label for="textarea"
+          >Elaborate :
+          <textarea
+            id="textarea"
+            rows="15"
+            placeholder="Express your feelings here..."
+          ></textarea>
+        </label>
+      </fieldset>
+
+      <button id="submit" type="submit" value="submit">Submit</button>
+    </form>
+  </body>
+</html>
