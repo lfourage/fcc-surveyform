@@ -1,5 +1,8 @@
 # fcc-surveyform
 
+![fcc-surveyform](https://github.com/user-attachments/assets/da541815-c53b-4cef-bc6b-2db5a83e9a50)
+
+
 ## Utility
 This project serves as an evaluation for previously learned HTML/CSS concepts.
 
