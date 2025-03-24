@@ -12,7 +12,7 @@ The aim is to create a basic form with style using previously learned concepts i
 
 ### Instructions
 
-Objective: Build an app that is functionally similar to https://survey-form.freecodecamp.rocks. Do not copy this demo project.
+Objective: Build an app that is functionally similar to [https://survey-form.freecodecamp.rocks](https://survey-form.freecodecamp.rocks). Do not copy this demo project.
 
     You should have a page title in an h1 element with an id of title
     You should have a short explanation in a p element with an id of description
